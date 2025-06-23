@@ -337,9 +337,8 @@
     };
 
 
-    /* Contact Form
-     * ------------------------------------------------------ */
-    var ssContactForm = function() {
+   
+   /* var ssContactForm = function() {
 
         /* local validation */
 	    $('#contactForm').validate({
@@ -388,7 +387,7 @@
             }
     
         });
-    };
+    };*/
 
 
    /* Back to Top
