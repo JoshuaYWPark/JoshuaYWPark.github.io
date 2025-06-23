@@ -337,13 +337,15 @@
     };
 
 
-   
-   /* var ssContactForm = function() {
+    /* Contact Form
+     * ------------------------------------------------------ */
+    /*
+    var ssContactForm = function() {
 
-        /* local validation */
+        // local validation
 	    $('#contactForm').validate({
         
-            /* submit via ajax */
+            // submit via ajax
             submitHandler: function(form) {
     
                 var sLoader = $('.submit-loader');
@@ -387,7 +389,8 @@
             }
     
         });
-    };*/
+    };
+    */
 
 
    /* Back to Top
@@ -427,7 +430,7 @@
         ssSmoothScroll();
         ssPlaceholder();
         ssAlertBoxes();
-        ssContactForm();
+        // ssContactForm(); // Commented out this line
         ssBackToTop();
 
     })();
